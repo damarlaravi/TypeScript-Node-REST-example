@@ -1,0 +1,57 @@
+{
+  "name": "NodeTS",
+  "version": "1.0.0",
+  "description": "Example App uses TypeScript, Node.js, Express 4, MongoDB, Mongoose.",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "iconv-lite": "^0.4.19",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.9",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "reflect-metadata": "^0.1.10",
+    "routing-controllers": "^0.7.6",
+    "rxjs": "^5.5.6",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/debug": "0.0.30",
+    "@types/dotenv": "^4.0.2",
+    "@types/express": "^4.11.0",
+    "@types/mocha": "^2.2.46",
+    "@types/mongoose": "^4.7.32",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^9.3.0",
+    "@types/passport": "^0.4.2",
+    "@types/passport-jwt": "^3.0.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-typescript": "^3.2.3",
+    "gulp-yaml": "^1.0.1",
+    "mocha": "^4.1.0",
+    "mocha-typescript": "^1.1.12",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "build": "gulp build",
+    "test": "mocha -t 30000 dist/tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damarlaravi/TypeScript-Node-REST-example.git"
+  },
+  "keywords": [],
+  "author": "Arthur Arakelyan <arthur@devslaw.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/devslaw/TypeScript-Node.js-REST-example#readme"
+}
