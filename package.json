@@ -48,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/damarlaravi/TypeScript-Node-REST-example.git"
+    "url": "https://github.com/damarlaravi/TypeScript-Node-REST-example.git"
   },
   "keywords": [],
-  "author": "Arthur Arakelyan <arthur@devslaw.com>",
+  "author": "Demarla ravi kumar <damarlaravi.com>",
   "license": "ISC",
-  "homepage": "https://github.com/devslaw/TypeScript-Node.js-REST-example#readme"
+  "homepage": "https://github.com/damarlaravi/TypeScript-Node-REST-example.git"
 }
